@@ -38,6 +38,8 @@ within 30 days using machine learning models on 100,000+ records.
   type, diagnosis, and patient demographics
 
 ## Project Structure
+
+```
 ├── diabetic_readmission_prediction.ipynb
 ├── 30-days readmission.pbix
 ├── Dashboard 1.png
@@ -45,6 +47,9 @@ within 30 days using machine learning models on 100,000+ records.
 ├── Dashboard 3.png
 ├── Dashboard 4.png
 └── README.md
+```
+
+
 ## Dashboard Preview
 ![Dashboard 1](Dashboard%201.png)
 ![Dashboard 2](Dashboard%202.png)
