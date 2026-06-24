@@ -1,0 +1,100 @@
+2026-06-22 15:12:12,725 [INFO] Pipeline started
+2026-06-22 15:12:12,726 [INFO] Starting etl_pipeline.py
+2026-06-22 15:12:21,331 [ERROR] 2026-06-22 15:12:17,723 - INFO - ==================================================
+2026-06-22 15:12:17,723 - INFO - Starting ETL Pipeline
+2026-06-22 15:12:17,723 - INFO - ==================================================
+2026-06-22 15:12:17,723 - INFO - Starting extraction phase...
+2026-06-22 15:12:18,098 - INFO - Loaded diabetic_data.csv: 101766 rows, 50 columns
+2026-06-22 15:12:18,119 - INFO - Loaded IDS_mapping.csv: 67 rows, 2 columns
+2026-06-22 15:12:18,119 - INFO - Starting transformation phase...
+2026-06-22 15:12:18,119 - INFO - Cleaning diabetic_data...
+2026-06-22 15:12:18,829 - INFO - After cleaning: 101766 rows remaining
+2026-06-22 15:12:18,829 - INFO - Cleaning IDS_mapping...
+2026-06-22 15:12:18,833 - INFO - ID mapping cleaned: 62 rows
+2026-06-22 15:12:18,834 - INFO - Starting merge phase...
+2026-06-22 15:12:18,834 - INFO - Merging on column: admission_type_id
+2026-06-22 15:12:19,158 - INFO - Merged data shape: 300007 rows, 51 columns
+2026-06-22 15:12:19,158 - INFO - Starting load phase...
+2026-06-22 15:12:21,174 - INFO - Successfully loaded data into diabetic_db.sqlite
+2026-06-22 15:12:21,174 - INFO - Table 'diabetic_records' created with 300007 records
+2026-06-22 15:12:21,174 - INFO - ==================================================
+2026-06-22 15:12:21,174 - INFO - ETL Pipeline completed successfully!
+2026-06-22 15:12:21,174 - INFO - ==================================================
+2026-06-22 15:12:21,331 [INFO] Finished etl_pipeline.py successfully
+2026-06-22 15:12:21,331 [INFO] Starting data_quality.py
+2026-06-22 15:12:31,352 [INFO] Data quality report written to data_quality_report.txt
+2026-06-22 15:12:31,353 [INFO] Finished data_quality.py successfully
+2026-06-22 15:12:31,353 [INFO] Starting feature_engineering.py
+2026-06-22 15:12:36,593 [INFO] Created ml_ready_features with 5000 rows
+2026-06-22 15:12:36,593 [INFO] Finished feature_engineering.py successfully
+2026-06-22 15:12:36,593 [INFO] Pipeline completed successfully
+2026-06-22 15:40:10,292 [INFO] Pipeline started
+2026-06-22 15:40:10,293 [INFO] Starting etl_pipeline.py
+2026-06-22 15:40:16,762 [ERROR] 2026-06-22 15:40:11,315 - INFO - ==================================================
+2026-06-22 15:40:11,315 - INFO - Starting ETL Pipeline
+2026-06-22 15:40:11,315 - INFO - ==================================================
+2026-06-22 15:40:11,315 - INFO - Starting extraction phase...
+2026-06-22 15:40:11,868 - INFO - Loaded diabetic_data.csv: 101766 rows, 50 columns
+2026-06-22 15:40:11,871 - INFO - Loaded IDS_mapping.csv: 67 rows, 2 columns
+2026-06-22 15:40:11,871 - INFO - Starting transformation phase...
+2026-06-22 15:40:11,871 - INFO - Cleaning diabetic_data...
+2026-06-22 15:40:12,981 - INFO - After cleaning: 101766 rows remaining
+2026-06-22 15:40:12,981 - INFO - Cleaning IDS_mapping...
+2026-06-22 15:40:12,984 - INFO - ID mapping cleaned: 62 rows
+2026-06-22 15:40:12,984 - INFO - Starting merge phase...
+2026-06-22 15:40:12,984 - INFO - Merging on column: admission_type_id
+2026-06-22 15:40:13,481 - INFO - Merged data shape: 300007 rows, 51 columns
+2026-06-22 15:40:13,481 - INFO - Starting load phase...
+2026-06-22 15:40:16,567 - INFO - Successfully loaded data into diabetic_db.sqlite
+2026-06-22 15:40:16,567 - INFO - Table 'diabetic_records' created with 300007 records
+2026-06-22 15:40:16,567 - INFO - ==================================================
+2026-06-22 15:40:16,567 - INFO - ETL Pipeline completed successfully!
+2026-06-22 15:40:16,567 - INFO - ==================================================
+2026-06-22 15:40:16,762 [INFO] Finished etl_pipeline.py successfully
+2026-06-22 15:40:16,762 [INFO] Starting data_quality.py
+2026-06-22 15:40:28,753 [INFO] Data quality report written to data_quality_report.txt
+2026-06-22 15:40:28,754 [INFO] Finished data_quality.py successfully
+2026-06-22 15:40:28,754 [INFO] Starting feature_engineering.py
+2026-06-22 15:40:36,423 [INFO] Created ml_ready_features with 5000 rows
+2026-06-22 15:40:36,423 [INFO] Finished feature_engineering.py successfully
+2026-06-22 15:40:36,424 [INFO] Starting train_model.py
+2026-06-22 15:41:00,934 [INFO] Fitting 3 folds for each of 8 candidates, totalling 24 fits
+Training complete. Best model saved to best_readmission_model.joblib
+Metrics written to model_report.txt
+2026-06-22 15:41:00,934 [INFO] Finished train_model.py successfully
+2026-06-22 15:41:00,934 [INFO] Pipeline completed successfully
+2026-06-22 18:00:24,595 [INFO] Pipeline started
+2026-06-22 18:00:24,596 [INFO] Starting etl_pipeline.py
+2026-06-22 18:00:33,134 [ERROR] 2026-06-22 18:00:26,218 - INFO - ==================================================
+2026-06-22 18:00:26,219 - INFO - Starting ETL Pipeline
+2026-06-22 18:00:26,219 - INFO - ==================================================
+2026-06-22 18:00:26,219 - INFO - Starting extraction phase...
+2026-06-22 18:00:27,086 - INFO - Loaded diabetic_data.csv: 101766 rows, 50 columns
+2026-06-22 18:00:27,089 - INFO - Loaded IDS_mapping.csv: 67 rows, 2 columns
+2026-06-22 18:00:27,089 - INFO - Starting transformation phase...
+2026-06-22 18:00:27,089 - INFO - Cleaning diabetic_data...
+2026-06-22 18:00:28,571 - INFO - After cleaning: 101766 rows remaining
+2026-06-22 18:00:28,571 - INFO - Cleaning IDS_mapping...
+2026-06-22 18:00:28,575 - INFO - ID mapping cleaned: 62 rows
+2026-06-22 18:00:28,576 - INFO - Starting merge phase...
+2026-06-22 18:00:28,576 - INFO - Merging on column: admission_type_id
+2026-06-22 18:00:29,087 - INFO - Merged data shape: 300007 rows, 51 columns
+2026-06-22 18:00:29,087 - INFO - Starting load phase...
+2026-06-22 18:00:32,922 - INFO - Successfully loaded data into diabetic_db.sqlite
+2026-06-22 18:00:32,922 - INFO - Table 'diabetic_records' created with 300007 records
+2026-06-22 18:00:32,922 - INFO - ==================================================
+2026-06-22 18:00:32,922 - INFO - ETL Pipeline completed successfully!
+2026-06-22 18:00:32,922 - INFO - ==================================================
+2026-06-22 18:00:33,134 [INFO] Finished etl_pipeline.py successfully
+2026-06-22 18:00:33,135 [INFO] Starting data_quality.py
+2026-06-22 18:00:46,425 [INFO] Data quality report written to data_quality_report.txt
+2026-06-22 18:00:46,425 [INFO] Finished data_quality.py successfully
+2026-06-22 18:00:46,426 [INFO] Starting feature_engineering.py
+2026-06-22 18:00:54,394 [INFO] Created ml_ready_features with 5000 rows
+2026-06-22 18:00:54,395 [INFO] Finished feature_engineering.py successfully
+2026-06-22 18:00:54,395 [INFO] Starting train_model.py
+2026-06-22 18:01:09,104 [INFO] Fitting 3 folds for each of 8 candidates, totalling 24 fits
+Training complete. Best model saved to best_readmission_model.joblib
+Metrics written to model_report.txt
+2026-06-22 18:01:09,104 [INFO] Finished train_model.py successfully
+2026-06-22 18:01:09,104 [INFO] Pipeline completed successfully

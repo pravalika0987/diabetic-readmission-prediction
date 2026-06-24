@@ -1,0 +1,1434 @@
+TABLE: diabetic_records
+=======================
+Column: encounter_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 166303631.1046
+  Median: 153392256.0000
+  Stddev: 102463981.5780
+  Min: 12522.0
+  Max: 443867222.0
+  Outlier count: 0
+
+Column: patient_nbr
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 54272422.3490
+  Median: 45172134.0000
+  Stddev: 38723798.1509
+  Min: 135.0
+  Max: 189502619.0
+  Outlier count: 0
+
+Column: race
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: gender
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: age
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: weight
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: admission_type_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 1.9539
+  Median: 1.0000
+  Stddev: 1.3573
+  Min: 1.0
+  Max: 8.0
+  Outlier count: 0
+
+Column: discharge_disposition_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 3.6650
+  Median: 1.0000
+  Stddev: 5.1710
+  Min: 1.0
+  Max: 28.0
+  Outlier count: 28276
+  Example outliers: [10.0, 10.0, 10.0, 10.0, 10.0]
+
+Column: admission_source_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 5.6467
+  Median: 7.0000
+  Stddev: 3.9362
+  Min: 1.0
+  Max: 25.0
+  Outlier count: 0
+
+Column: time_in_hospital
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 4.3927
+  Median: 4.0000
+  Stddev: 2.9837
+  Min: 1.0
+  Max: 14.0
+  Outlier count: 0
+
+Column: payer_code
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: medical_specialty
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: num_lab_procedures
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 42.9350
+  Median: 44.0000
+  Stddev: 19.6396
+  Min: 1.0
+  Max: 132.0
+  Outlier count: 0
+
+Column: num_procedures
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 1.3346
+  Median: 1.0000
+  Stddev: 1.7030
+  Min: 0.0
+  Max: 6.0
+  Outlier count: 0
+
+Column: num_medications
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 16.0139
+  Median: 15.0000
+  Stddev: 8.1201
+  Min: 1.0
+  Max: 81.0
+  Outlier count: 1264
+  Example outliers: [51.0, 51.0, 51.0, 51.0, 51.0]
+
+Column: number_outpatient
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 0.3717
+  Median: 0.0000
+  Stddev: 1.2720
+  Min: 0.0
+  Max: 42.0
+  Outlier count: 49579
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: number_emergency
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 0.1994
+  Median: 0.0000
+  Stddev: 0.9364
+  Min: 0.0
+  Max: 76.0
+  Outlier count: 33768
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: number_inpatient
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 0.6359
+  Median: 0.0000
+  Stddev: 1.2635
+  Min: 0.0
+  Max: 21.0
+  Outlier count: 5935
+  Example outliers: [5.0, 5.0, 5.0, 5.0, 5.0]
+
+Column: diag_1
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: diag_2
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: diag_3
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: number_diagnoses
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Mean: 7.4345
+  Median: 8.0000
+  Stddev: 1.9321
+  Min: 1.0
+  Max: 16.0
+  Outlier count: 0
+
+Column: max_glu_serum
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 285460
+  Non-null values: 14547
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: A1Cresult
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 249967
+  Non-null values: 50040
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: metformin
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: repaglinide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: nateglinide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: chlorpropamide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glimepiride
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: acetohexamide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glipizide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glyburide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: tolbutamide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: pioglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: rosiglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: acarbose
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: miglitol
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: troglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: tolazamide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: examide
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: citoglipton
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: insulin
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glyburide-metformin
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glipizide-metformin
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: glimepiride-pioglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: metformin-rosiglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: metformin-pioglitazone
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: change
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: diabetesMed
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: readmitted
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+Column: description
+  Declared type: TEXT
+  Primary key: False
+  Not null: False
+  Rows: 300007
+  Null values: 0
+  Non-null values: 300007
+  Type mismatch count: 0
+  Outlier count: 0
+
+
+TABLE: ml_ready_features
+========================
+Column: encounter_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 7221350.1660
+  Median: 7823370.0000
+  Stddev: 3379639.4748
+  Min: 12522.0
+  Max: 12451536.0
+  Outlier count: 0
+
+Column: patient_nbr
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 27162694.5282
+  Median: 5126323.5000
+  Stddev: 36660674.2161
+  Min: 1152.0
+  Max: 115196778.0
+  Outlier count: 0
+
+Column: race_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 3.4540
+  Median: 4.0000
+  Stddev: 1.0183
+  Min: 1.0
+  Max: 6.0
+  Outlier count: 0
+
+Column: gender_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.4716
+  Median: 1.0000
+  Stddev: 0.4992
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 0
+
+Column: age_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 6.6050
+  Median: 7.0000
+  Stddev: 1.7544
+  Min: 1.0
+  Max: 10.0
+  Outlier count: 0
+
+Column: weight_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0512
+  Median: 2.0000
+  Stddev: 0.6253
+  Min: 2.0
+  Max: 10.0
+  Outlier count: 36
+  Example outliers: [3.0, 3.0, 4.0, 4.0, 9.0]
+
+Column: admission_type_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.8944
+  Median: 2.0000
+  Stddev: 2.1036
+  Min: 1.0
+  Max: 6.0
+  Outlier count: 0
+
+Column: discharge_disposition_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 7.3222
+  Median: 1.0000
+  Stddev: 9.8092
+  Min: 1.0
+  Max: 25.0
+  Outlier count: 0
+
+Column: admission_source_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 5.3528
+  Median: 7.0000
+  Stddev: 4.2225
+  Min: 1.0
+  Max: 20.0
+  Outlier count: 0
+
+Column: time_in_hospital
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 4.7130
+  Median: 4.0000
+  Stddev: 3.0861
+  Min: 1.0
+  Max: 14.0
+  Outlier count: 0
+
+Column: payer_code_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: medical_specialty_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 17.3548
+  Median: 13.0000
+  Stddev: 18.7992
+  Min: 1.0
+  Max: 73.0
+  Outlier count: 0
+
+Column: num_lab_procedures
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 49.9032
+  Median: 49.0000
+  Stddev: 16.7486
+  Min: 1.0
+  Max: 105.0
+  Outlier count: 0
+
+Column: num_procedures
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.7072
+  Median: 1.0000
+  Stddev: 1.8429
+  Min: 0.0
+  Max: 6.0
+  Outlier count: 0
+
+Column: num_medications
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 15.0284
+  Median: 14.0000
+  Stddev: 7.7314
+  Min: 1.0
+  Max: 61.0
+  Outlier count: 11
+  Example outliers: [50.0, 50.0, 50.0, 51.0, 51.0]
+
+Column: number_outpatient
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.0660
+  Median: 0.0000
+  Stddev: 0.5601
+  Min: 0.0
+  Max: 9.0
+  Outlier count: 126
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: number_emergency
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.0174
+  Median: 0.0000
+  Stddev: 0.1634
+  Min: 0.0
+  Max: 4.0
+  Outlier count: 72
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: number_inpatient
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.3328
+  Median: 0.0000
+  Stddev: 0.7588
+  Min: 0.0
+  Max: 6.0
+  Outlier count: 1130
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: diag_1_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 323.6146
+  Median: 277.0000
+  Stddev: 165.1359
+  Min: 4.0
+  Max: 711.0
+  Outlier count: 0
+
+Column: diag_2_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 252.5046
+  Median: 247.0000
+  Stddev: 155.7522
+  Min: 4.0
+  Max: 743.0
+  Outlier count: 0
+
+Column: diag_3_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 281.8902
+  Median: 252.0000
+  Stddev: 185.3904
+  Min: 4.0
+  Max: 787.0
+  Outlier count: 0
+
+Column: number_diagnoses
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 6.8102
+  Median: 7.0000
+  Stddev: 2.1352
+  Min: 1.0
+  Max: 9.0
+  Outlier count: 0
+
+Column: max_glu_serum_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.0584
+  Median: 0.0000
+  Stddev: 0.3771
+  Min: 0.0
+  Max: 3.0
+  Outlier count: 134
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: A1Cresult_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.4154
+  Median: 0.0000
+  Stddev: 0.8580
+  Min: 0.0
+  Max: 3.0
+  Outlier count: 1035
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: metformin_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.1388
+  Median: 2.0000
+  Stddev: 0.3821
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 673
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: repaglinide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0076
+  Median: 2.0000
+  Stddev: 0.1037
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 36
+  Example outliers: [1.0, 1.0, 3.0, 3.0, 3.0]
+
+Column: nateglinide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0000
+  Median: 2.0000
+  Stddev: 0.0000
+  Min: 2.0
+  Max: 2.0
+  Outlier count: 0
+
+Column: chlorpropamide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0010
+  Median: 2.0000
+  Stddev: 0.0316
+  Min: 2.0
+  Max: 3.0
+  Outlier count: 5
+  Example outliers: [3.0, 3.0, 3.0, 3.0, 3.0]
+
+Column: glimepiride_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0434
+  Median: 2.0000
+  Stddev: 0.2398
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 234
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: acetohexamide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: glipizide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.1522
+  Median: 2.0000
+  Stddev: 0.4160
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 747
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: glyburide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.1078
+  Median: 2.0000
+  Stddev: 0.3553
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 566
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: tolbutamide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0012
+  Median: 1.0000
+  Stddev: 0.0346
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 6
+  Example outliers: [2.0, 2.0, 2.0, 2.0, 2.0]
+
+Column: pioglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0138
+  Median: 2.0000
+  Stddev: 0.1250
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 70
+  Example outliers: [1.0, 1.0, 3.0, 3.0, 3.0]
+
+Column: rosiglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0456
+  Median: 2.0000
+  Stddev: 0.2217
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 223
+  Example outliers: [1.0, 1.0, 1.0, 3.0, 3.0]
+
+Column: acarbose_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0032
+  Median: 2.0000
+  Stddev: 0.0565
+  Min: 2.0
+  Max: 3.0
+  Outlier count: 16
+  Example outliers: [3.0, 3.0, 3.0, 3.0, 3.0]
+
+Column: miglitol_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0000
+  Median: 2.0000
+  Stddev: 0.0000
+  Min: 2.0
+  Max: 2.0
+  Outlier count: 0
+
+Column: troglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0016
+  Median: 1.0000
+  Stddev: 0.0400
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 8
+  Example outliers: [2.0, 2.0, 2.0, 2.0, 2.0]
+
+Column: tolazamide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0012
+  Median: 1.0000
+  Stddev: 0.0346
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 6
+  Example outliers: [2.0, 2.0, 2.0, 2.0, 2.0]
+
+Column: examide_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: citoglipton_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: insulin_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.4590
+  Median: 3.0000
+  Stddev: 0.8107
+  Min: 1.0
+  Max: 4.0
+  Outlier count: 0
+
+Column: glyburide-metformin_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.0000
+  Median: 2.0000
+  Stddev: 0.0000
+  Min: 2.0
+  Max: 2.0
+  Outlier count: 0
+
+Column: glipizide-metformin_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: glimepiride-pioglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: metformin-rosiglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: metformin-pioglitazone_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.0000
+  Median: 1.0000
+  Stddev: 0.0000
+  Min: 1.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: change_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.5722
+  Median: 2.0000
+  Stddev: 0.4948
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 0
+
+Column: diabetesMed_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 1.8166
+  Median: 2.0000
+  Stddev: 0.3870
+  Min: 1.0
+  Max: 2.0
+  Outlier count: 917
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: description_id
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 11.6608
+  Median: 11.0000
+  Stddev: 6.9770
+  Min: 1.0
+  Max: 23.0
+  Outlier count: 0
+
+Column: total_visits
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.4162
+  Median: 0.0000
+  Stddev: 1.0767
+  Min: 0.0
+  Max: 15.0
+  Outlier count: 1203
+  Example outliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+
+Column: avg_labs_per_day
+  Declared type: REAL
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 16.1382
+  Median: 11.7500
+  Stddev: 12.8371
+  Min: 0.1
+  Max: 76.0
+  Outlier count: 111
+  Example outliers: [56.0, 56.0, 56.0, 56.0, 56.0]
+
+Column: meds_per_diagnosis
+  Declared type: REAL
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 2.3749
+  Median: 2.1111
+  Stddev: 1.3946
+  Min: 0.16666666666666666
+  Max: 14.0
+  Outlier count: 60
+  Example outliers: [7.166666666666667, 7.166666666666667, 7.166666666666667, 7.2, 7.2]
+
+Column: readmitted_binary
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.5160
+  Median: 1.0000
+  Stddev: 0.4998
+  Min: 0.0
+  Max: 1.0
+  Outlier count: 0
+
+Column: readmitted_label
+  Declared type: INTEGER
+  Primary key: False
+  Not null: False
+  Rows: 5000
+  Null values: 0
+  Non-null values: 5000
+  Type mismatch count: 0
+  Mean: 0.6232
+  Median: 1.0000
+  Stddev: 0.6703
+  Min: 0.0
+  Max: 2.0
+  Outlier count: 0
+
+
